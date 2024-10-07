@@ -48,3 +48,20 @@ console.log(typeof  heros)//will give either object or function
 
 
 
+//stack(primitive), heap(non-primitive)
+//example
+
+let myyoutubename="bawa_official.com"
+console.log(myyoutubename)
+let anothername=myyoutubename
+anothername="chai aur code"
+console.log(anothername)
+let user1={
+email:"user@email.com",
+upi:"user@ybl"
+
+}
+console.log(user1.email)
+let user2=user1
+user2.email="najim@gmail.com"
+console.log(user1.email)
